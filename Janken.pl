@@ -88,7 +88,7 @@ sub janken {
         "s" => 2
     );
 
-    # 入力が正しいか確認
+    # 入力が正しいか確認する
     unless (exists $jankenData{$myChoice}) {
         print "Invalid choice! Please enter 'r', 'p', or 's'.\n";
         return;  # 不正な入力の場合は処理を終了
